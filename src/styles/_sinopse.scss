@@ -1,0 +1,38 @@
+.sinopse {
+    
+    &__content {
+
+        display: grid;
+        grid-template-columns: 55% 45%;
+        align-items: stretch;
+        justify-content: space-between;
+
+        h2 {
+            padding-top: 40px;
+            text-align: center;
+            color: #ea0109;
+            font-size: 32px;
+        }
+
+        h4 {
+            text-align: center;
+            color: #ea0109;
+        }
+
+        p {
+            color: beige;
+            padding: 24px;
+            font-weight: bold;
+        }
+
+        img {
+            padding-top: 40px;
+            padding-right: 48px;
+            max-width: 100%;
+            height: 85%;
+            object-fit: contain;
+            display: block;
+            margin-left: auto;
+        }
+    }
+}
