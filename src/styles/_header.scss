@@ -10,6 +10,7 @@
         padding: 8px 36px;
         display: flex;
         justify-content: center;
+        
     }
 
     &__links {
@@ -29,6 +30,7 @@
     width: 100%;
     height: 50px;
     font-size: 18px;
+    font-weight: bold;
     color: beige;
     background-color: #ea0109;
     text-transform: uppercase;
@@ -47,4 +49,5 @@
     &:active {
         transform: scale(0.96);
     }
+
 }

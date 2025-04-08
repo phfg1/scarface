@@ -1,13 +1,27 @@
 .footer {
     &__container {
         padding: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        
         
 
         img {
             max-width: 150px;
             border-radius: 50px;
         }
+
+        p {
+            color: beige;
+            position: absolute;
+            left: 50%;
+            transform: translateX(-50%);
+            margin: 0;
+            text-align: center;
+            
+
+        }
     }
-
-
 }

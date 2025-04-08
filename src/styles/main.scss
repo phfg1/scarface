@@ -29,4 +29,34 @@ h1 {
     font-size: 32px;
 }
 
-
+.button__topo {
+    position: fixed;
+    top: 20px;             
+    right: 20px;           
+    padding: 12px 20px;
+    margin-top: 12px;
+    background-color: #ea0109;
+    color: beige;
+    border-radius: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 1px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s ease, transform 0.2s ease;
+        z-index: 1000;
+    
+        &:hover {
+        background-color: lighten(#ea0109, 10%);
+        }
+    
+        &.visible {
+        opacity: 1;
+        pointer-events: auto;
+        }
+    
+        &:active {
+        transform: scale(0.95);
+        }
+    } 

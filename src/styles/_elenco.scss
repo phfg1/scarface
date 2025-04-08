@@ -21,6 +21,12 @@
                     display: block;
                 }
 
+                
+                &:hover {
+                    transform: scale(1.05);
+                    cursor: pointer;
+                }
+
                 .elenco__content__fotos__caption {
                     padding: 0 8px 8px 8px;
                     text-align: center;
