@@ -1,5 +1,11 @@
 @use 'hero';
 @use 'sinopse';
+@use 'elenco';
+@use 'header';
+@use 'curiosidades';
+@use 'trailer';
+@use 'faq';
+@use 'footer';
 
 $bgColor: black;
 
@@ -13,6 +19,14 @@ $bgColor: black;
 
 body {
     background-color: $bgColor;
+}
+
+h1 {
+    padding-top: 40px;
+    padding-bottom: 24px;
+    text-align: center;
+    color: #ea0109;
+    font-size: 32px;
 }
 
 

@@ -1,11 +1,13 @@
-.sinopse {
-    
+.curiosidades {
+
+        
     &__container {
 
         display: grid;
-        grid-template-columns: 55% 45%;
+        grid-template-columns: 45% 55%;
         align-items: stretch;
         justify-content: space-between;
+        padding: 24px;
 
         h2 {
             padding-top: 40px;
@@ -33,7 +35,7 @@
             height: 85%;
             object-fit: contain;
             display: block;
-            margin-left: auto;
+            margin-right: auto;
         }
     }
 }
