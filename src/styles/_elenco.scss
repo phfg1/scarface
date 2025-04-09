@@ -7,11 +7,17 @@
         padding: 0;
         list-style: none;
 
+
         li {
             max-width: 200px;
 
             figure {
                 margin: 0;
+
+                @media (max-width: 768px) {
+                    max-width: 150px;
+            
+                }
 
                 img {
                     width: 100%;

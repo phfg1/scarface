@@ -5,6 +5,11 @@
         align-items: center;
         justify-content: space-between;
         position: relative;
+
+        @media (max-width: 768px) {
+            display: flex;
+            justify-content: space-between;
+        }
         
         
 
@@ -20,8 +25,14 @@
             transform: translateX(-50%);
             margin: 0;
             text-align: center;
-            
 
+            @media (max-width: 768px) {
+                position: absolute;
+                left: 70%;
+                transform: translateX(-50%);
+                margin: 0;
+                text-align: center;
+            }       
         }
     }
 }

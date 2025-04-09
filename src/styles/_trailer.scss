@@ -11,6 +11,13 @@
         max-width: 100%;
         width: 1120px;
         height: 630px;
+
+        @media (max-width: 1024px) {
+          max-width: 100%;
+          width: 570px;
+          height: 315px;
+  
+      }
       }
     }
   }

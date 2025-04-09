@@ -7,6 +7,11 @@
         align-items: stretch;
         justify-content: space-between;
 
+        @media (max-width: 768px) {
+            display: block;
+    
+        }
+
         h2 {
             padding-top: 40px;
             text-align: center;

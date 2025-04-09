@@ -1,4 +1,4 @@
-.faq {
+.bio {
     padding: 5.6vw;
 
     h2 {
@@ -6,12 +6,12 @@
         margin-bottom: 24px;
     }
 
-    &__questions {
+    &__list {
         &__item {
             background-color: #13151d;
             margin-bottom: 16px;
 
-            &__question {
+            &__actor {
                 color: beige;
                 font-size: 20px;
                 font-weight: bold;
@@ -32,7 +32,7 @@
                 }
             }
 
-            &__answer {
+            &__hist {
                 height: 0;
                 overflow: hidden;
                 padding: 0 24px;
@@ -40,11 +40,11 @@
             }
 
             &--is-open {
-                .faq__questions__item__question::after {
+                .bio__list__item__actor::after {
                     content: '-';
                 }
 
-                .faq__questions__item__answer {
+                .bio__list__item__hist {
                     height: auto;
                     padding-bottom: 24px;
                     transition: height, .5s ease;
